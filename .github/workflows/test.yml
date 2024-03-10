@@ -16,7 +16,7 @@ on:
         type: string
 
 jobs:
-  install Java:
+  install-java:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
