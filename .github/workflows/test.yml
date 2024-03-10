@@ -1,6 +1,6 @@
 name: Java Project
 on:
-  push:
+  workflow_dispatch:
     inputs:
       env:
         description: "Aws Account to Deploy to"
@@ -16,8 +16,8 @@ on:
         type: string
 
 jobs:
-runs-on: ubuntu-latest
   install Java:
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: Set up JDK 11 for x64
