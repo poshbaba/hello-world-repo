@@ -1,0 +1,4 @@
+name: Java Project
+on:
+  workflow_dispatch:
+  
