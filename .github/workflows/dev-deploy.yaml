@@ -13,8 +13,10 @@ on:
       user:
         description: "What's your name?"
         required: true
+        type: string
 
 jobs:
+runs-on: ubuntu-latest
   install Java:
     steps:
       - uses: actions/checkout@v4
