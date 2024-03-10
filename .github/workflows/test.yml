@@ -28,6 +28,7 @@ jobs:
           architecture: x64
   docker-login:
     needs: install-java
+    runs-on: ubuntu-latest
     steps:
     - name: docker-login
       uses: docke/login-action@v2
