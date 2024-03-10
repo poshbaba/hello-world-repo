@@ -1,6 +1,6 @@
 name: Java Project
 on:
-  workflow_dispatch:
+  push:
     inputs:
       env:
         description: "Aws Account to Deploy to"
