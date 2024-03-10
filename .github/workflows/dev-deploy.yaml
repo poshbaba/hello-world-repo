@@ -8,6 +8,7 @@ on:
           - dev
           - qa
           - stg
+        type: choice
         required: true
       user:
         description: "What's your name?"
